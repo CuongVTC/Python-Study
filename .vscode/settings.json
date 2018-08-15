@@ -1,0 +1,14 @@
+{
+    "editor.fontSize": 14,
+    "python.pythonPath": "C:\\Users\\CuongVTC\\AppData\\Local\\Programs\\Python\\Python36\\python.exe",
+    "python.jediEnabled": false,
+    "python.linting.pep8Enabled": false,
+    "python.linting.enabled": true,
+    "python.autoComplete.preloadModules": [
+        "Autodesk.Revit.DB",
+        "Autodesk.Revit.UI"
+    ],
+    "python.autoComplete.extraPaths": [
+        "C:\\Users\\CuongVTC\\.vscode\\ironpython-stubs-master\\release\\stubs.min"
+    ]
+}

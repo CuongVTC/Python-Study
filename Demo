@@ -1,8 +1,0 @@
-import sys
-import unittest
-import os
-import from Autodesk.Revit.UI.Events
-import clr
-clr.AddReference('ProtoGeometry')
-from Autodesk.DesignScript.Geometry import *
-
