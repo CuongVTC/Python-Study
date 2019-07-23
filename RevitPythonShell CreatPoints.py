@@ -1,4 +1,5 @@
 import clr
+import math
 clr.AddReference('RevitAPI')
 clr.AddReference('RevitAPIUI')
 from Autodesk.Revit.DB import *
@@ -19,7 +20,7 @@ for i in range(0,30):
         
         myXYZ = XYZ(x,y,z)
         # use ZYZ to define a refernence point
-        refPoint = doc.FamilyCreate.NewReferncePoint(myXYZ)
+        refPoint = doc.FamilyCreate.NewReferencePoint(myXYZ)
 
 t.Commit()
 
